@@ -2,52 +2,54 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 30px;
-    font-size: 5px;
+    padding: 1.875rem;
+    font-size: 0.1rem;
     font-weight: bolder;
-    line-height: 10px;
+    line-height: 0.625rem;
     font-family: Verdana, Georgia ;
     text-align: center;
     background: url(mendeleiv-fond.jpeg);  
     background-size: auto;
+    overflow: hidden;
+    width: 100%;
 }
 .page{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-self: center;;
-    width: 778px;
+    width: 48.625rem;
     background-color: #e6Ffff;
-    border: solid blue 5px;
-    border-radius: 10px; 
+    border: solid blue 0.3125rem;
+    border-radius: 0.625rem; 
 }
 div{
     height: 53px;
     width: 39px;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     margin: 2px;
     padding: 0;
     margin-bottom: 1;
     margin-top: 1;
+
 }
 span{
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .titre{
-    height: 40px;
-    width: 150px;
-    margin-top: 10px;
+    height: 2.5rem;
+    width: 9.375rem;
+    margin-top: 0.625rem;
     align-self: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 a{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: lighter;
     font-family: courier New;
     text-decoration: none;
     color:#006600;
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 .ligne1{
     display: flex;
@@ -104,7 +106,7 @@ a{
     width: 99%;
     height: 100%;
     justify-content: center;
-    margin-top: 45px;
+    margin-top: 2.8125rem;
 }
 .ligne9{
     display: flex;
@@ -147,7 +149,7 @@ a{
     background-color: #9ed3c3;
 }
 .couleur12{
-    margin-right: 429px;
+    margin-right: 26.8125rem;
     background-color: #cdebc8 ;
 }
 p:hover{
