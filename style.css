@@ -167,3 +167,8 @@ h2{
     font-weight: lighter;
     color: #b30059;
 }
+.Image{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+}
