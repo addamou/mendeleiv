@@ -1,6 +1,6 @@
 body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
     padding: 1.875rem;
     font-size: 0.1rem;
@@ -8,16 +8,17 @@ body{
     line-height: 0.625rem;
     font-family: Verdana, Georgia ;
     text-align: center;
-    background: url(mendeleiv-fond.jpeg);  
+    background: url(Dmitri_Mendeleev.jpg);  
     background-size: auto;
     overflow: hidden;
     width: 100%;
+    overflow-x: hidden;
 }
 .page{
     display: flex;
     flex-direction: column;
-    align-self: center;;
-    width: 48.625rem;
+    align-self: center;
+    width: 775px;
     background-color: #e6Ffff;
     border: solid blue 0.3125rem;
     border-radius: 0.625rem; 
@@ -30,7 +31,6 @@ div{
     padding: 0;
     margin-bottom: 1;
     margin-top: 1;
-
 }
 span{
     font-weight: bold;
@@ -171,4 +171,7 @@ h2{
     height: 5rem;
     width: 5rem;
     border-radius: 100%;
+}
+.secour{
+    width: 200px;
 }
